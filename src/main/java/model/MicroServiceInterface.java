@@ -11,6 +11,12 @@ import lombok.Data;
 @Data
 public class MicroServiceInterface
 {
+    /**
+     * microServiceInterface name
+     */
     private String name;
+    /**
+     * the type of Interface
+     */
     private EnumInterfaceType type;
 }

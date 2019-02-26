@@ -17,7 +17,7 @@ public class BCPlatform
      */
     public static void main(String[] args)
     {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext();
+        //TODO after learning spring, use spring to manage my class
 
     }
 }
