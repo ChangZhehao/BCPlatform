@@ -6,6 +6,6 @@ package service;
  * Time: 13:35
  * Description: the service is controling the microservice's log in, log off, sign in, delete .
  */
-public class MSManageService
+public class MSManageService extends MSAbstractService
 {
 }
