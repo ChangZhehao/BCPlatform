@@ -6,6 +6,6 @@ package service;
  * Time: 13:57
  * Description:
  */
-public class MSMessageService extends MSAbstractService
+public interface MSMessageService
 {
 }

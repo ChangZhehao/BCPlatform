@@ -13,19 +13,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
  * Time: 9:43
  * Description:
  */
-public class MSErrorService extends MSAbstractService
+public interface MSErrorService
 {
-    ConcurrentLinkedQueue<Exception> allExceptionList = new ConcurrentLinkedQueue<Exception>();
 
-    @Override
-    public void run()
-    {
-        try
-        {
-            Thread.sleep(3000);
-        } catch (InterruptedException e)
-        {
-            e.printStackTrace();
-        }
-    }
 }
