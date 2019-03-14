@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bcac8fd-b7f6-477b-a757-e74b3a3f0a7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/MSManageServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/MSInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/MSInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/MSInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BCPlatform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BCPlatform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/MSAbstractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MSAbstractService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/MSManageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MSManageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/MSMannageServiceImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/MSMessageServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MSMessageServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,14 +83,14 @@
           <entry key="ft" value="12" />
           <entry key="java" value="4227" />
           <entry key="properties" value="53" />
-          <entry key="txt" value="170" />
+          <entry key="txt" value="188" />
           <entry key="xml" value="861" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="4227" />
-          <entry key="PLAIN_TEXT" value="170" />
+          <entry key="PLAIN_TEXT" value="188" />
           <entry key="Properties" value="53" />
           <entry key="VTL" value="12" />
           <entry key="XML" value="861" />
@@ -182,7 +177,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/MSMessageServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="84">
               <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
@@ -449,7 +444,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552527122136" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552527268232" />
     <property name="last_opened_file_path" value="D:/SchoolProjects/comp1110/comp1110-labs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -545,7 +540,7 @@
       <workItem from="1552007722286" duration="1764000" />
       <workItem from="1552352782858" duration="10793000" />
       <workItem from="1552448034125" duration="3604000" />
-      <workItem from="1552526340621" duration="737000" />
+      <workItem from="1552526340621" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="MSManageService and MSMessageService Frame completed">
       <created>1551150004787</created>
@@ -568,11 +563,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552449081534</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mybatis generator">
+      <created>1552527211640</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552527211640</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43441000" />
+    <option name="totallyTimeSpent" value="43701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -592,7 +594,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.29656607" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3298647" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -620,7 +622,8 @@
     <MESSAGE value="MSManageService and MSMessageService Frame completed" />
     <MESSAGE value="Frame of MSManageService, MSMessageServie ,MSErrorServivce  20%" />
     <MESSAGE value="finish spring framework and mybatis" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish spring framework and mybatis" />
+    <MESSAGE value="mybatis generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis generator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -972,7 +975,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/MSMessageServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="84">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
