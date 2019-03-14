@@ -2,6 +2,7 @@ package service;
 
 import model.MicroServiceModel;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -12,5 +13,7 @@ import java.util.List;
  */
 public interface MSManageService
 {
-    public void getProjectByProject(int projectId);
+    public void getProjectByProject(long projectId) throws IOException;
+
+
 }

@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="MSManageService" class="service.MSMannageServiceImp"></bean>
+    <bean id="MSManageService" class="service.MSManageServiceImp"></bean>
     <bean id="MSErrorService" class="service.MSErrorServiceImp"></bean>
-    <bean id="MSMessageService" class="service.MSMannageServiceImp"></bean>
+    <bean id="MSMessageService" class="service.MSMessageServiceImp"></bean>
 </beans>

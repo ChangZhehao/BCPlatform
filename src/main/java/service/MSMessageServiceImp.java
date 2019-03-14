@@ -6,6 +6,14 @@ package service;
  * Time: 14:13
  * Description:
  */
-public class MSMessageServiceImp implements MSMessageService
+public class MSMessageServiceImp extends MSAbstractService implements MSMessageService
 {
+    @Override
+    public void run()
+    {
+        while(true)
+        {
+            System.out.println("MessageService");
+        }
+    }
 }

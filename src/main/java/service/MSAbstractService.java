@@ -12,6 +12,7 @@ public abstract class MSAbstractService implements Runnable
 
     public void run()
     {
+        ;
     }
 
     /**

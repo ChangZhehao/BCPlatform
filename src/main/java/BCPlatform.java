@@ -35,34 +35,11 @@ public class BCPlatform
     public static void main(String[] args) throws IOException
     {
 //        //TODO after learning spring, use spring to manage my class
-//        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
-//        MSManageService manageService =(MSManageService)applicationContext.getBean("MSManageService");
-//        MSErrorService msErrorService = (MSErrorService)applicationContext.getBean("MSErrorService");
-//        MSMessageService msMessageService = (MSMessageService)applicationContext.getBean("MSMessageService");
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
+        MSManageService manageService =(MSManageService)applicationContext.getBean("MSManageService");
+        MSErrorService msErrorService = (MSErrorService)applicationContext.getBean("MSErrorService");
+        MSMessageService msMessageService = (MSMessageService)applicationContext.getBean("MSMessageService");
 
-        //获取mybatis全局配置文件
-        String resource = "config/mybatis.xml";
-        InputStream inputStream = Resources.getResourceAsStream(resource);
-        //读取配置文件的配置信息，利用SqlSessionFactoryBuilder创建sqlSessionFactory
-        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-        //利用sqlSessionFactory打开与数据库的会话
-        SqlSession sqlSession = sqlSessionFactory.openSession();
-
-        try {
-            MSInfoMapper msInfoMapper = sqlSession.getMapper(MSInfoMapper.class);//通过sqlSession得到mapper
-
-            MSInfo person = msInfoMapper.selectByPrimaryKey(0L);
-
-            System.out.println(person.getId());
-
-sqlSession.close();
-        }
-        catch (Exception e)
-        {
-            System.out.println(e);
-        }finally {
-            sqlSession.close();
-        }
     }
 
 
