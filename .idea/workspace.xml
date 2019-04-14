@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bcac8fd-b7f6-477b-a757-e74b3a3f0a7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bcunitjob/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bccommonmodel/src/main/java/EnumExceptionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bccommonmodel/src/main/java/model/EnumExceptionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BCPlatform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BCPlatform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flow/MSCheckFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flow/MSCheckFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flow/MSDeleteFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flow/MSDeleteFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flow/MSOfflineFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flow/MSOfflineFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flow/MSOnlineFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flow/MSOnlineFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flow/MSReceiveFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flow/MSReceiveFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flow/MSRegisterFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flow/MSRegisterFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flow/MSSendFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flow/MSSendFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/MSInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/MSInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/MSManageServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MSManageServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bcunitjob/src/main/java/LogMannager.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -131,25 +113,25 @@
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.46" value="2" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="2157" />
           <entry key="properties" value="120" />
-          <entry key="txt" value="54" />
+          <entry key="txt" value="111" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2157" />
-          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="PLAIN_TEXT" value="111" />
           <entry key="Properties" value="120" />
           <entry key="XML" value="1" />
         </counts>
@@ -189,8 +171,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="28" selection-start-line="28" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="296">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -234,7 +216,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PATH_TO_FX$/src.zip!/java/nio/charset/Charset.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14220">
+            <state relative-caret-position="14340">
               <caret line="526" column="26" selection-start-line="526" selection-start-column="26" selection-end-line="526" selection-end-column="26" />
             </state>
           </provider>
@@ -289,6 +271,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -376,7 +359,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -502,13 +485,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555243943230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555244762181" />
     <property name="last_opened_file_path" value="D:/SchoolProjects/comp1110/comp1110-ass2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -630,6 +613,7 @@
       <workItem from="1554258407766" duration="2008000" />
       <workItem from="1554288257591" duration="1187000" />
       <workItem from="1554332240240" duration="598000" />
+      <workItem from="1555243865851" duration="1126000" />
     </task>
     <task id="LOCAL-00001" summary="MSManageService and MSMessageService Frame completed">
       <created>1551150004787</created>
@@ -673,11 +657,39 @@
       <option name="project" value="LOCAL" />
       <updated>1553484126631</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update EnumExceptionType">
+      <created>1555243912117</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555243912117</updated>
+    </task>
+    <task id="LOCAL-00008" summary="move to github">
+      <created>1555243935287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555243935287</updated>
+    </task>
+    <task id="LOCAL-00009" summary="move to github">
+      <created>1555243970845</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555243970845</updated>
+    </task>
+    <task id="LOCAL-00010" summary="move to github">
+      <created>1555244198852</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555244198852</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89179000" />
+    <option name="totallyTimeSpent" value="90305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,9 +702,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19083156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -705,13 +716,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958376" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32882413" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" visible="true" weight="0.32882413" />
       <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.20187305" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32640332" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32882413" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3298647" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -771,7 +782,9 @@
     <MESSAGE value="mybatis generator" />
     <MESSAGE value="mybatis generator- mysql mapper" />
     <MESSAGE value="RedisManager finish and RequestManager finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="RedisManager finish and RequestManager finish" />
+    <MESSAGE value="update EnumExceptionType" />
+    <MESSAGE value="move to github" />
+    <option name="LAST_COMMIT_MESSAGE" value="move to github" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -1115,7 +1128,7 @@
     </entry>
     <entry file="jar://$PATH_TO_FX$/src.zip!/java/nio/charset/Charset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14220">
+        <state relative-caret-position="14340">
           <caret line="526" column="26" selection-start-line="526" selection-start-column="26" selection-end-line="526" selection-end-column="26" />
         </state>
       </provider>
@@ -1143,8 +1156,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="28" selection-start-line="28" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="296">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
