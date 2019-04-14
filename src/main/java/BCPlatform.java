@@ -1,9 +1,5 @@
-import dao.MSInfoMapper;
-import model.MSInfo;
-import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import mananger.RedisManager;
+import model.EnumExceptionType;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import service.MSErrorService;
@@ -11,12 +7,8 @@ import service.MSManageService;
 import service.MSMessageService;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.Reader;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.HashMap;
+
 
 /**
  * User: u6613739
@@ -24,7 +16,7 @@ import java.util.Set;
  * Time: 21:36
  * Description: the main class of BCPlatform
  */
-public class BCPlatform
+public class BCPlatform extends Object
 {
     /**
      * the main method of BCPlatform
@@ -34,13 +26,12 @@ public class BCPlatform
      */
     public static void main(String[] args) throws IOException
     {
-//        //TODO after learning spring, use spring to manage my class
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
-        MSManageService manageService =(MSManageService)applicationContext.getBean("MSManageService");
-        MSErrorService msErrorService = (MSErrorService)applicationContext.getBean("MSErrorService");
-        MSMessageService msMessageService = (MSMessageService)applicationContext.getBean("MSMessageService");
+        MSManageService msManageService = (MSManageService) applicationContext.getBean("MSManageService");
+        MSErrorService msErrorService = (MSErrorService) applicationContext.getBean("MSErrorService");
+        MSMessageService msMessageService = (MSMessageService) applicationContext.getBean("MSMessageService");
+
 
     }
-
 
 }

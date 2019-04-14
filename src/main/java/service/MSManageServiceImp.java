@@ -1,11 +1,13 @@
 package service;
 
 import dao.MSInfoMapper;
+import mananger.RedisManager;
 import model.MSInfo;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.springframework.context.ApplicationContext;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -18,13 +20,25 @@ import java.io.InputStream;
  */
 public class MSManageServiceImp extends MSAbstractService implements MSManageService
 {
+    ApplicationContext context;
+
     @Override
     public void run()
     {
-        while(true)
+        // Intialize the redis and check the mysql
+        intialize();
+        while (true)
         {
             System.out.println("MSManageService");
         }
+    }
+    private void intialize()
+    {
+        // 1. clean the redis 1 ->active online MS
+        RedisManager.deleteAllValue("127.0.0.1",1);
+        // 2. listen register info
+
+        // 3.
     }
 
     public void getProjectByProject(long projectId) throws IOException
