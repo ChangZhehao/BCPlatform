@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="BCCommonModel" />
+        <module name="BCMsPrototype" />
         <module name="BCPlatform" />
         <module name="bcplatform" />
         <module name="BCUnitJob" />

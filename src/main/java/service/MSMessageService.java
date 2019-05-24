@@ -1,5 +1,7 @@
 package service;
 
+import java.io.IOException;
+
 /**
  * User: u6613739
  * Date: 2019/2/26
@@ -8,4 +10,5 @@ package service;
  */
 public interface MSMessageService
 {
+    public void run() throws IOException;
 }

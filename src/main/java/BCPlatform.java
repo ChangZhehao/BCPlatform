@@ -1,5 +1,4 @@
-import mananger.RedisManager;
-import model.EnumExceptionType;
+;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import service.MSErrorService;
@@ -7,7 +6,6 @@ import service.MSManageService;
 import service.MSMessageService;
 
 import java.io.IOException;
-import java.util.HashMap;
 
 
 /**
@@ -30,7 +28,7 @@ public class BCPlatform extends Object
         MSManageService msManageService = (MSManageService) applicationContext.getBean("MSManageService");
         MSErrorService msErrorService = (MSErrorService) applicationContext.getBean("MSErrorService");
         MSMessageService msMessageService = (MSMessageService) applicationContext.getBean("MSMessageService");
-
+        msMessageService.run();
 
     }
 

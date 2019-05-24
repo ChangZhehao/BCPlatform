@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../BCUnitJob/pom.xml" />
         <option value="$PROJECT_DIR$/../BCCommonModel/pom.xml" />
+        <option value="$PROJECT_DIR$/../bcmsprototype/pom.xml" />
       </list>
     </option>
   </component>
