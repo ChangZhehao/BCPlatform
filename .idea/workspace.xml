@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bcac8fd-b7f6-477b-a757-e74b3a3f0a7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../bccommonmodel/src/main/java/model/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bccommonmodel/src/main/java/model/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/javamodel/MSInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bccommonmodel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bccommonmodel/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6bcac8fd-b7f6-477b-a757-e74b3a3f0a7c" name="Default Changelist" comment="generate the structure of generateUUID()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BCPlatform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BCPlatform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/MSInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/MSInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/MSInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/MSInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/MSMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MSMessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/MSMessageServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MSMessageServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bcunitjob/src/main/java/mananger/LogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bcunitjob/src/main/java/mananger/LogManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bcunitjob/src/main/java/mananger/RedisManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bcunitjob/src/main/java/mananger/RedisManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bcunitjob/src/main/java/mananger/RequstManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bcunitjob/src/main/java/mananger/RequstManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -144,7 +128,7 @@
           <entry key="java" value="3466" />
           <entry key="md" value="126" />
           <entry key="properties" value="120" />
-          <entry key="txt" value="180" />
+          <entry key="txt" value="290" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -152,7 +136,7 @@
         <counts>
           <entry key="JAVA" value="3466" />
           <entry key="Markdown" value="126" />
-          <entry key="PLAIN_TEXT" value="180" />
+          <entry key="PLAIN_TEXT" value="290" />
           <entry key="Properties" value="120" />
           <entry key="XML" value="1" />
         </counts>
@@ -188,23 +172,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/MSMessageServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="287">
+              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../bcunitjob/src/main/java/mananger/RequstManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -221,11 +196,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../bccommonmodel/src/main/java/model/Request.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
-              <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+              <caret line="31" column="68" lean-forward="true" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -295,7 +270,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../bccommonmodel" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -449,15 +424,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bcplatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bcplatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bcplatform" type="b2602c69:ProjectViewProjectNode" />
@@ -500,7 +467,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558679204465" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558679429614" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bcmsprototype/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -631,7 +598,7 @@
       <workItem from="1558497570583" duration="598000" />
       <workItem from="1558524530670" duration="1614000" />
       <workItem from="1558570998846" duration="33000" />
-      <workItem from="1558663246158" duration="11185000" />
+      <workItem from="1558663246158" duration="11477000" />
     </task>
     <task id="LOCAL-00001" summary="MSManageService and MSMessageService Frame completed">
       <created>1551150004787</created>
@@ -731,11 +698,32 @@
       <option name="project" value="LOCAL" />
       <updated>1558449539588</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update Request model and Response model">
+      <created>1558679224451</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1558679224451</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update database and msmessageService">
+      <created>1558679303713</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1558679303713</updated>
+    </task>
+    <task id="LOCAL-00017" summary="clean checkstyle">
+      <created>1558679391982</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1558679391982</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105996000" />
+    <option name="totallyTimeSpent" value="106288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -833,7 +821,10 @@
     <MESSAGE value="move to github" />
     <MESSAGE value="update enumExceptionType" />
     <MESSAGE value="generate the structure of generateUUID()" />
-    <option name="LAST_COMMIT_MESSAGE" value="generate the structure of generateUUID()" />
+    <MESSAGE value="update Request model and Response model" />
+    <MESSAGE value="update database and msmessageService" />
+    <MESSAGE value="clean checkstyle" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean checkstyle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1184,10 +1175,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/MSMessageServiceImp.java">
+    <entry file="file://$PROJECT_DIR$/../bccommonmodel/src/main/java/model/Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        <state relative-caret-position="197">
+          <caret line="31" column="68" lean-forward="true" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1196,15 +1187,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../bcunitjob/src/main/java/mananger/RequstManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="175">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bccommonmodel/src/main/java/model/Request.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/MSMessageServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+        <state relative-caret-position="287">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
